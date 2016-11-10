@@ -1,0 +1,16 @@
+{
+  "name": "client_server",
+  "version": "0.0.1",
+  "description": "first client-server experiment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "limulo.net",
+  "license": "cc-by-sa",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  }
+}
