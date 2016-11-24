@@ -8,7 +8,7 @@ var data = {
   "adv": ["very", "not so", "quite"],
   "character": ["plumber", "cook", "house", "candy", "bear"],
   "adj": ["rough", "posh", "sad", "funny"],
-  "adj2": ["useful", "useless", "disturbbing"],
+  "adj2": ["useful", "useless", "disturbing"],
   "food": ['pizza', 'dumplings', 'hamburger', 'ice cream', 'french fries', 'salmon'],
   "monster": ['dragon', 'dinosaur', 'chupacabra', 'jaguar', 'joker', 'voldemort', 'creative coder'],
   "verb": ["need", "deserve", "aspect", "can find", "can eat"],
