@@ -561,7 +561,12 @@ var tracery = {
         },
 
         inQuotes : function(s) {
-            return '"' + s + '"';
+        	return '"' + s + '"';
+        },
+        
+        
+       hexColour : function(s) {
+			return ('#' + s);
         },
 
         comma : function(s) {
@@ -1221,3 +1226,4 @@ var tracery = {
     };
 
 })(); 
+
