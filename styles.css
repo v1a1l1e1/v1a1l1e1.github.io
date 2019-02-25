@@ -1,0 +1,138 @@
+body {
+  font-family:'Roboto', sans-serif;
+	font-size: 75%;
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	background: #FFD700;
+	color:black;
+  text-decoration:none;
+}
+
+a:active {
+  color: black;
+  text-decoration:none;
+}
+
+#menu {
+  /*position: fixed;*/
+	background-color: LightSlateGrey ;
+	text-align: center;
+	font-size:110%;
+}
+
+.menu-link:link {
+	color:white;
+	text-decoration:none;
+}
+
+.menu-link:visited {
+	color:white;
+	text-decoration:none;
+}
+
+.menu-link:hover {
+	background: #FFD700;
+	color: LightSlateGrey;
+}
+
+.menu-link:active {
+	color:white;
+	text-decoration:none;
+}
+
+.audioplayer {
+  position: relative;
+	margin-top:0.75%;
+  margin-bottom:5%;
+}
+
+.backHome {
+  text-align:center;
+}
+
+#footer{
+  position: fixed;
+  font-size:80%;
+  left: 0;
+  bottom: 0.2%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.slide1 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
