@@ -57,12 +57,35 @@ a:active {
   margin-bottom:5%;
 }
 
-/*.backHome {
-  text-align:center;
+.backHome {
+  position: fixed;
+  font-size:100%;
+  left: 0;
+  bottom: 6%;
+  width: 100%;
+  text-align: center;
 }
-*/
+
+.backHome_img {
+  position: sticky;
+  font-size:100%;
+  left: 33%;
+  bottom: 6%;
+  width: 100%;
+  text-align: center;
+}
+
 #footer{
   position: fixed;
+  font-size:80%;
+  left: 0;
+  bottom: 0.2%;
+  width: 100%;
+  text-align: center;
+}
+
+#footer_img{
+  position: sticky;
   font-size:80%;
   left: 0;
   bottom: 0.2%;
