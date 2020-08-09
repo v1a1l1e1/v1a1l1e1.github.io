@@ -1,0 +1,16 @@
+-D TADS_INCLUDE_NET
+-D LANGUAGE=en_us
+-D MESSAGESTYLE=neu
+-Fy obj -Fo obj
+-Fs sources
+-o TestGame.t3
+-lib system
+-lib adv3/adv3web
+-lib webui
+-source tadsnet
+-source TestGame
+-source classes
+-source props
+-source debug
+-source cave_system
+-source ship_system
